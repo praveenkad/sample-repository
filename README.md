@@ -1,4 +1,5 @@
-/**
+        
+	/**
 	 * Method -  Method for User Click, waits until the element is loaded
 	 * and then performs a click action
 	 * 
@@ -6,7 +7,6 @@
 	 * @param waitTime
 	 * @author Praveen Kadambari
 	 */
-
 	public void click(WebElement element, String sElementName, int optionWaitTime) {
 		try {
 			waitForElementToLoad(element, sElementName, optionWaitTime);
